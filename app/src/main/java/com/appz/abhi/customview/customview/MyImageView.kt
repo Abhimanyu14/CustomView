@@ -22,12 +22,11 @@ class MyImageView @JvmOverloads constructor(
     private var localAttrs: AttributeSet?
 
     init {
-1
+
         LayoutInflater.from(context).inflate(R.layout.my_image_view, this, true)
 
         // Card layout radius
         radius = 32.0.toFloat()
-
 
         localContext = context
         localAttrs = attrs
@@ -51,7 +50,6 @@ class MyImageView @JvmOverloads constructor(
                 )
             )
             my_image_view_title.text = title
-
             Log.e("My Image View", "Title set")
 
             drawable = resources.getDrawable(
@@ -62,7 +60,6 @@ class MyImageView @JvmOverloads constructor(
             )
             Glide.with(my_image_view_image_view.context).load(drawable)
                 .into(my_image_view_image_view)
-
             Log.e("My Image View", "Image set")
 
             typedArray.recycle()
