@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyImageView">
+
+        <attr name="my_image_view_title" format="reference" />
+        <attr name="my_image_view_src" format="reference" />
+
+    </declare-styleable>
+
+</resources>

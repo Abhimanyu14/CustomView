@@ -1,0 +1,32 @@
+<resources>
+
+    <!--App name-->
+    <string name="app_name">Custom View</string>
+
+
+    <!--Layouts-->
+
+    <!--Home fragment-->
+    <string name="categories">CATEGORIES</string>
+    <string name="men">MEN</string>
+    <string name="women">WOMEN</string>
+    <string name="kids">KIDS</string>
+
+    <!--Men fragment-->
+    <string name="casual_shirt">CASUAL SHIRT</string>
+    <string name="formal_shirt">FORMAL SHIRT</string>
+    <string name="suits">SUITS</string>
+    <string name="t_shirt">T-SHIRT</string>
+
+    <!--Kids fragment-->
+    <string name="ethnic">ETHNIC</string>
+    <string name="jacket">JACKET</string>
+    <string name="jeans">JEANS</string>
+    <string name="shirts">SHIRTS</string>
+    <string name="t_shirts">T-SHIRTS</string>
+
+
+    <!--Custom image view-->
+    <string name="image_view_default_title">TITLE</string>
+
+</resources>
